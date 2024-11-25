@@ -10,10 +10,12 @@ Every year, school test results impact the college admissions fate of millions o
    - Schools where the average math score is at least 80% of the maximum possible score (640 out of 800).
    - Results are saved in a DataFrame called `best_math_schools`, including `school_name` and `average_math`, sorted in descending order.
 <br>
+
 2. **Finding the top 10 performing schools based on combined SAT scores**:
    - Calculating `total_SAT` as the sum of math, reading, and writing scores.
    - Results are saved in a DataFrame called `top_10_schools`, including `school_name` and `total_SAT`, sorted in descending order.
 <br>
+
 3. **Determining which borough has the largest standard deviation in combined SAT scores**:
    - Analyzing variability to identify disparities within boroughs.
    - Results are saved in a DataFrame called `largest_std_dev`, including `borough`, `num_schools`, `average_SAT`, and `std_SAT`, rounded to two decimal places.
